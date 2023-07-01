@@ -10,15 +10,15 @@
 
     The other solutions do not offer everything one might desire, such as expotring to pdf, pining the diary input etc. DayDiary will offer specifics that other apps might have missed.
 - ### Area and Motivation
-    We got asipiration when we searched the World Web for an appropiate *diary* program for Linux OS. We did not find any solution that could satisfiy our safty expectaions.
+    We got asipiration when we searched the World Web for an appropiate *diary* program for Linux OS. We did not find any great solution that could satisfiy our safty needs.
 
     Before writing to ordinary text files, diaries were written on paper. Doing it in a digital form speeds up the process of writing and comes with other features such as erasing, embellishing text, etc.
 
     Unlike most common applications, Daydiary will be platform (OS) independent and will provide safe diary encryption. Daydiary has a unique feature of professional data analysis and it's graphical presentation.
 
-    End audience of this project is everyone intenting to write a confidential digital diary. Confidentiality and simplicity of this program will convince our audince to use our solution for their to get their job done.
+    End audience of this project is everyone intenting to write a confidential digital diary. Confidentiality and simplicity of this program will convince our audince to use our solution to get their job done.
 - ### Purpose
-    Solution serves as an accessory for an individual personal growth. Program does not have any use in scientific and reaserch space or business. This project's main goal is to make **confidential** digital diary for users of Linux operating system. Since there are no free solutions to assure confidential and user friendly use of digital diary, DayDiary will make this contribution to Linux operating systems. End users will be able to analyze their diary input and improve their expression of thoughs.
+    Solution serves as an accessory for an individual personal growth. Program does not have any use in scientific and reaserch space or business. This project's main goal is to make **confidential** digital diary for users of Linux operating system. Since there are no free solutions to assure confidential and user friendly use of digital diary, DayDiary will make this contribution to free market. End users will be able to analyze their diary input and improve their expression of thoughs.
 - ### Objective
     Solution will be presented as a standalone application. The program will **not** use any communication with internet. User's diary will only be accessible to an individual with their own computer and password. 
 - ### Solution Guidelines
@@ -27,10 +27,20 @@
     Everyone willing to write a digital diary will be a potential customer. Since there is no clinet-server involved, the number of customers does not affect our service. Expected number of customers is one, but the project will be built as there were millions of which most do not have knowledge of software engineering. Only end users will benefit from this promram, since there are no inderctly connected people to this project.
 ## 3. Project Plan
 
+- ### Summary of project activity breakdown,
+
+- ### Plan of individual activities
+
+- ### List of deliverables
+
+- ### Ganttov chart,
+
+- ### PERT graph
+
 ## 4. Risk managment plan
 
 ## 5. Project Managment
 
 ## 6. Presentation of the Project Group
-
+The group working on this project consists of only one software developer. It is Gabrijel Okorn. A student of Faculty of Computer Science in Ljubljana. He is a diligent student who aims to perfect his programming skills and wills to get good experiments in fields of project managment and security protocols. Gabrijel is known for his examplary work ethics. He has done several similar project where he got the courage to take the all the responsiblity of this project alone.
 ## 7. Financial Plan
