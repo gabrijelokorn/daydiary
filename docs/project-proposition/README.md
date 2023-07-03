@@ -25,10 +25,10 @@
     The most prioritized guideline building this project will be to assuer high level of data security and assuring simple use and installation of program.
 - ### End Users
     Everyone willing to write a digital diary will be a potential customer. Since there is no clinet-server involved, the number of customers does not affect our service. Expected number of customers is one, but the project will be built as there were millions of which most do not have knowledge of software engineering. Only end users will benefit from this promram, since there are no inderctly connected people to this project.
+
 ## 3. Project Plan
-
 - ### Summary of project activity breakdown,
-
+The first 6 acitivites to A6 (Interfaces to external systems) are part of requirements gathering. The following regarding project plan are  from A7(Interfaces to external systems) to A 10(Program basic workflow). The other to the last one describe activities to implement and produce the program.
 - ### Plan of individual activities
   |Activity Label|A1|
   |-|-|
@@ -145,7 +145,7 @@
   |Estimated Start Date of Activity|24.07.2023|
   |Estimated Completion Date of Activity|06.08.2023|
   |Duration|13|
-  |Name of activity|**Basic progam workflow**|
+  |Name of activity|**Program basic workflow**|
   |List of Activity Objectives|Working basic input and output of the program without security and user interface|
   |Description of Activity|Program basic functionalities of the program. |
   |Possible Dependencies and Constraints|All the projcet architectures should be well defined|
@@ -156,7 +156,7 @@
   |Estimated Start Date of Activity|07.08.2023|
   |Estimated Completion Date of Activity|13.08.2023|
   |Duration|6|
-  |Name of activity|**Data Protection**|
+  |Name of activity|**Implement data Protection**|
   |List of Activity Objectives|To secure data of the user input|
   |Description of Activity|Program or use existing algorithnm for data encryption|
   |Possible Dependencies and Constraints|Basic workflow of the program|
@@ -167,7 +167,7 @@
   |Estimated Start Date of Activity|14.08.2023|
   |Estimated Completion Date of Activity|20.08.2023|
   |Duration|6|
-  |Name of activity|**Logging and analsys**|
+  |Name of activity|**Implement logging and analsys**|
   |List of Activity Objectives|<ul><li>Storing user data</li><li>Analyzing user data</li></ul>|
   |Description of Activity|Build algorithms to analyze different scopes of user input|
   |Possible Dependencies and Constraints|Basic workflow of the program|
@@ -195,11 +195,11 @@
   |Possible Dependencies and Constraints|Has to be done after A14 (Create user interface)|
   |Expected Results of Activity|Eliminated potential errors|
 
-  |Activity Label|A|
+  |Activity Label|A16|
   |-|-|
   |Estimated Start Date of Activity|29.09.2023|
-  |Estimated Completion Date of Activity|01.10.2023|
-  |Duration|2|
+  |Estimated Completion Date of Activity|08.10.2023|
+  |Duration|9|
   |Name of activity|**Software release**|
   |List of Activity Objectives|<ul><li>Make program accessible to end users</li></ul>|
   |Description of Activity|Create a program to install an app for different platforms.|
@@ -207,6 +207,21 @@
   |Expected Results of Activity|Installable version of the application|
 
 - ### List of deliverables
+|Product Label|P1|
+|-|-|
+|Name of product|**Requirement capture document**|
+|Activity to produce the product|A10 (Behaviour design)| 
+
+|Product Label|P2|
+|-|-|
+|Name of product|**Project plan document**|
+|Activity to produce the product|A7 (Interfaces to external systems)|
+
+|Product Label|P3|
+|-|-|
+|Name of product|**DayDiary application**|
+|Activity to produce the product|A16 (Software release)|
+
 
 - ### Gantt chart
 
@@ -215,7 +230,6 @@
 ## 4. Risk managment plan
 
 ## 5. Project Managment
-
+Since there is only one individual working on the whole project, he will manage the project and do all the work. The individual has connections and acquaintances who are skillful on this field and might help him with program implementation and data encryption. The individual will stick to the project plan. So communication might be only from outside the group and not inside.
 ## 6. Presentation of the Project Group
-The group working on this project consists of only one software developer. It is Gabrijel Okorn. A student of Faculty of Computer Science in Ljubljana. He is a diligent student who aims to perfect his programming skills and wills to get good experiments in fields of project managment and security protocols. Gabrijel is known for his examplary work ethics. He has done several similar projects where he got the courage to take the all the responsiblity of this project alone.
-## 7. Financial Plan
+The group working on this project consists of only one software developer. A student of Faculty of Computer Science in Ljubljana. He is a diligent student who aims to perfect his programming skills and wills to get good experiments in fields of project managment and security protocols. He is known for his examplary work ethics. He has done several similar projects where he got the courage to take all the responsiblity of this project alone.
