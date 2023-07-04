@@ -1,7 +1,11 @@
 # Project Proposition
 
 ## 1. Project Summary
-
+Daydiary is a program for storing user's diary - what has happened over the course of the day or other period of time.\
+Program comes with a graphical interface - calendar view of the stored diaries. Every diary, which is bound to specific unique date has an option of inserting an image, leaving a note and pinning the content. Latter is used for faster access of specific content when searching and is in other applications often denoted as _favorites_.\
+The data the program stores is only on user's personal computer and is not accessible to anyone else. Password protection is optional, but recommended.\
+Optionaly, the author of the diary will have an opportunity to export the diary as _pdf document_.\
+Advanced user intput analysis such as number of words, diversity of words and others will be availible to end users and will be graphically supported.
 ## 2. Project Idea
 - ### Background
     Writing a diary is not a common activty and there are not many programs supporting it. People writing a diary digitaly often encounter a problem of programs not offering confidentiality. It is however among the most important concepts of writing a diary and should not be ignored.
@@ -33,8 +37,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A1|
   |-|-|
   |Estimated Start Date of Activity|06.07.2023|
-  |Estimated Completion Date of Activity|12.07.2023|
-  |Duration|6|
+  |Estimated Completion Date of Activity|06.07.2023|
+  |Duration|1|
   |Name of activity|**Determining user roles**|
   |List of Activity Objectives|Specify user roles. To divide users in groups based ond the functionalities they use|
   |Description of Activity|Analyze user needs and different types of functionalities they use.|
@@ -44,8 +48,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A2|
   |-|-|
   |Estimated Start Date of Activity|06.07.2023|
-  |Estimated Completion Date of Activity|12.07.2023|
-  |Duration|6|
+  |Estimated Completion Date of Activity|06.07.2023|
+  |Duration|1|
   |Name of activity|**Dictionary of terms**|
   |List of Activity Objectives|Define terminology of the project|
   |Description of Activity|Find different words and in fields of computer security, project planning, digital diary and text encryption.|
@@ -54,20 +58,20 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A3|
   |-|-|
-  |Estimated Start Date of Activity|06.07.2023|
-  |Estimated Completion Date of Activity|12.07.2023|
-  |Duration|6|
+  |Estimated Start Date of Activity|07.07.2023|
+  |Estimated Completion Date of Activity|08.07.2023|
+  |Duration|2|
   |Name of activity|**Make use case diagram**|
   |List of Activity Objectives|Specify which type of user uses which functionality.|
   |Description of Activity|Searching for different ways of how diffenet users can use the application.|
-  |Possible Dependencies and Constraints|None|
+  |Possible Dependencies and Constraints|Uses A1 (Determining user roles)'s user roles|
   |Expected Results of Activity|Use case diagram|
 
   |Activity Label|A4|
   |-|-|
-  |Estimated Start Date of Activity|06.07.2023|
+  |Estimated Start Date of Activity|10.07.2023|
   |Estimated Completion Date of Activity|12.07.2023|
-  |Duration|6|
+  |Duration|3|
   |Name of activity|**Functional requirements**|
   |List of Activity Objectives|Find what functionalities the program should support|
   |Description of Activity|Go through all the usecases and get all the functions that the program should offer the user.|
@@ -76,9 +80,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A5|
   |-|-|
-  |Estimated Start Date of Activity|06.07.2023|
+  |Estimated Start Date of Activity|10.07.2023|
   |Estimated Completion Date of Activity|12.07.2023|
-  |Duration|6|
+  |Duration|3|
   |Name of activity|**Non-functional requirements**|
   |List of Activity Objectives|Expose the environmental requirements that should support the program and vice versa|
   |Description of Activity|Think about use-cases and what do functional requirements need to operate. Search for platform specific constraints.|
@@ -93,7 +97,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Name of activity|**Create screen wireframes**|
   |List of Activity Objectives|Define the use case user interfaces|
   |Description of Activity|Draw or design prototyps of (preferably all) different user interface screen masks.|
-  |Possible Dependencies and Constraints|Depends on A4(Functional requirements)
+  |Possible Dependencies and Constraints|None|
   |Expected Results of Activity|Pictures of all user interface variants|
 
   |Activity Label|A7|
@@ -110,7 +114,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A8|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|23.07.2023|
+  |Estimated Completion Date of Activity|24.07.2023|
   |Duration|10|
   |Name of activity|**Architectural design**|
   |List of Activity Objectives|Develop a view of architecture to show how the components of system and outside of system interact|
@@ -121,7 +125,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A9|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|23.07.2023|
+  |Estimated Completion Date of Activity|24.07.2023|
   |Duration|10|
   |Name of activity|**Structural design**|
   |List of Activity Objectives|<ul><li>Define and name all structrues in program</li><li>Relation and mulitplication between classes</li></ul>|
@@ -132,7 +136,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A10|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|23.07.2023|
+  |Estimated Completion Date of Activity|24.07.2023|
   |Duration|10|
   |Name of activity|**Behaviour design**|
   |List of Activity Objectives|Design sequence diagram, state diagam or activity diagram based on basic and alternative flows|
@@ -143,8 +147,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A11|
   |-|-|
   |Estimated Start Date of Activity|24.07.2023|
-  |Estimated Completion Date of Activity|06.08.2023|
-  |Duration|13|
+  |Estimated Completion Date of Activity|17.08.2023|
+  |Duration|21|
   |Name of activity|**Program basic workflow**|
   |List of Activity Objectives|Working basic input and output of the program without security and user interface|
   |Description of Activity|Program basic functionalities of the program. |
@@ -153,9 +157,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A12|
   |-|-|
-  |Estimated Start Date of Activity|07.08.2023|
-  |Estimated Completion Date of Activity|13.08.2023|
-  |Duration|6|
+  |Estimated Start Date of Activity|17.08.2023|
+  |Estimated Completion Date of Activity|09.09.2023|
+  |Duration|10|
   |Name of activity|**Implement data Protection**|
   |List of Activity Objectives|To secure data of the user input|
   |Description of Activity|Program or use existing algorithnm for data encryption|
@@ -164,9 +168,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A13|
   |-|-|
-  |Estimated Start Date of Activity|14.08.2023|
-  |Estimated Completion Date of Activity|20.08.2023|
-  |Duration|6|
+  |Estimated Start Date of Activity|09.09.2023|
+  |Estimated Completion Date of Activity|21.09.2023|
+  |Duration|10|
   |Name of activity|**Implement logging and analsys**|
   |List of Activity Objectives|<ul><li>Storing user data</li><li>Analyzing user data</li></ul>|
   |Description of Activity|Build algorithms to analyze different scopes of user input|
@@ -175,9 +179,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A14|
   |-|-|
-  |Estimated Start Date of Activity|21.08.2023|
-  |Estimated Completion Date of Activity|24.09.2023|
-  |Duration|34|
+  |Estimated Start Date of Activity|22.09.2023|
+  |Estimated Completion Date of Activity|07.10.2023|
+  |Duration|14|
   |Name of activity|**Create user interface**|
   |List of Activity Objectives|<ul><li>working user interface, platform independent</li><li>plotting graphs of user input</li></ul>|
   |Description of Activity|Decide for best library and implement the program to a standalone application|
@@ -186,9 +190,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A15|
   |-|-|
-  |Estimated Start Date of Activity|25.08.2023|
-  |Estimated Completion Date of Activity|28.09.2023|
-  |Duration|2|
+  |Estimated Start Date of Activity|07.10.2023|
+  |Estimated Completion Date of Activity|13.10.2023|
+  |Duration|5|
   |Name of activity|**Testing**|
   |List of Activity Objectives|Test the application|
   |Description of Activity|Final test of the program|
@@ -197,14 +201,25 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A16|
   |-|-|
-  |Estimated Start Date of Activity|29.09.2023|
-  |Estimated Completion Date of Activity|08.10.2023|
-  |Duration|9|
+  |Estimated Start Date of Activity|13.10.2023|
+  |Estimated Completion Date of Activity|25.10.2023|
+  |Duration|10|
   |Name of activity|**Software release**|
   |List of Activity Objectives|<ul><li>Make program accessible to end users</li></ul>|
   |Description of Activity|Create a program to install an app for different platforms.|
   |Possible Dependencies and Constraints|The program has to be finished and tested|
   |Expected Results of Activity|Installable version of the application|
+
+  |Activity Label|A17|
+  |-|-|
+  |Estimated Start Date of Activity|25.10.2023|
+  |Estimated Completion Date of Activity|26.10.2023|
+  |Duration|1|
+  |Name of activity|**Instruction**|
+  |List of Activity Objectives|<ul><li>Help end users using the application</li></ul>|
+  |Description of Activity|Write user manual and instructions|
+  |Possible Dependencies and Constraints|Sofware realease has to be ready|
+  |Expected Results of Activity|User Manual|
 
 - ### List of deliverables
 |Product Label|P1|
@@ -222,12 +237,34 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 |Name of product|**DayDiary application**|
 |Activity to produce the product|A16 (Software release)|
 
+|Product Label|P4|
+|-|-|
+|Name of product|**User Manual**|
+|Activity to produce the product|A17 (Instruction)|
+
 
 - ### Gantt chart
+![Link name](http://www.plantuml.com/plantuml/png/nPPFRzD04CNl_XHpusGf3Nyejn8QK0gqKHfn8EfXiCVsairkc1aJyksndJhQo7KWWCgjpMxUxxsTFyg5ABBcw5GZALsAMm5aWiHweJIQilzAYK9pIs0u63wD1o_ZmOjez-TvF3m7zVS7hwgptRUzzKmf60Sfyf8fFNxVuOfIMCndu_dL62QVfvFvzGtSZ2vlHbVZEq2NXgQYE8OPVIiDqugS2hn3BOYDos5Qe134SRIuD8aQxv2tu3DGufNSTMCqqkJIpcT6mX3l2roQIfDg7UDgKYd4mDxItyj-n2NLUf3KvbE3EUDghueAVU0dKaCUW9ttmzwMRlSm5ZXumn3NOwYFTZRifrrx5sUFIdp3X4eW2HCvs5Iqh9AY41SKvJJjYLFY31EIkeVfXnBNgMGhIgj_GXXN1puxU2V8s-w-WmBNQt8DuRYPjZUQMMc7U6hH1HFocfF2Q7LGCbf8IKpkmWp7pOJ5iIWgS3Q0PdrqmtqmUQ6tIcH7jgHeSQjS_WViY0hyRdp9ZqbjXTVtHLXRT0U5xDXwg7IJrTesfb2D3ujONQX71RwWc0GsdfUPzPl3P5q3tJp3ixuyKxJqoNXBEgCqMkoTG8gAjK6bPhn3Pe-j_cSy0MjzdjTx41iXjBAL4DrlyC_fxL9fLgzfvwvBxVNN9J_xBNAdUqpO1uTzr6CoQAOvYS9wtphrlvNHCCPnN3V6yzDIjCJGTciZD3eZIoWKUBtrcMwG2NXtr34Tg9zGvfcNxOZznjMxNPJBfb4aLE-Yk_g_beykoANDhwoV)
 
-- ### PERT graph
+- ### PERT Graph
+![](http://www.plantuml.com/plantuml/png/ZPHFZzCm4CNl_XIZ7f4gKMZvSq7BV-q1jDfoGnnCCadDEdOPJoWLuhip7gVT95I8G-Lg_9lnqvkdN2Msn7tdpSxL2DZj-GWrfehSdbqCvlE3Bx1Sle1R_DuxmWu3f_UMTqWkjCPZmy0HoBKxXbg0IhkCZ6Myt0I_36prMg4Ls0IBDquRBHqXDi18NLgO2VUeS9ZlNCXp-eG453qAEYOVA_d1tc56eB89HPfjoNPJSAtWkpwKjptGIEyKtIZwCOPbyp_u4yLV4sgb8iG01q4RqJ2N-rJPwy18ZQqmPJ_n9oFb9z8nCNQpZcVQyJRKujL41BGdaxDvWssol6AB6SvpPVrNPMD-6tDvQuBSKFo65Tzu6upYuugiTIJnkKfyITNEiG0zMPzZvTgm66EhXyfjcVf_G2k5Nk7E_d2nfpCZMaS2HWglkxrN_PPTd6gTtirKhqh8XCnXWQyskGeEaUuQ7mzJJILavs5GMxRv2KPDnnHUps0VspPxQaCjF-jbozE6pJW_cdDtoeTijZ33PbMC6SxxqjeCvtr9btlP1M4-OUBIetzdnfH0vmlHhSuh97tRsF314jwYHvkmZ9XNPzDAv4yC392EdJVA2_89CbSOwhxpVm00)
 
 ## 4. Risk managment plan
+The project of creating an application can be faced with some of the Risks, which are described in the table under.
+| Risk Label | What is impacted *(technology, people, organization, tools, requirements, assessment)* | Description of Risk | Type of Risk *(product, project, business)* | Probability of Risk occurrence *(very high, high, moderate, low, very low)* | Consequences of Risk *(fatal, serious, acceptable, negligible)*|
+|-|-|-|-|-|-|
+|Skill gaps|Project|Developer does not have a skill to implement a functionality|Project|High|Acceptable|
+|Loss of key personnel|Project|Risk of the developer putting the project on hold or leaving the project.|Product|Very low|Fatal
+|Compatibility issues|Product|The final program would not work on other operating system or might not work on different computers with same operating system|Product|Moderate|Serious|
+|Incomplete or changing requirements|Project|A change of end program request|Product and Project|High|Acceptable|
+
+In risk planning, we ask "what if" questions that consider individual risks, combinations of risks, and external factors that can influence the risks. The risk management plan is depicted using the following table:
+|Risk Label|Strategy|
+|-|-|
+|Loss of key personnel|Put the project on hold and wait until the developer comes back or gets substituted.|
+|Compatibility issues|Develpoer searches for help at senior developer. Study the platform documentation.|
+|Incomplete or changing requirements|Accept the change. Fix the project plan (Gannt and PERT graphs, architecture of program) and implement the alternation.|
+|Skill gaps|Educate a developer by attending a course. If the problem is of acceptable nature than "Googling" the solution might resovle the problem. An expensive but fast way to get over skill gaps is to pay an external developer or instructor for help.|
 
 ## 5. Project Managment
 Since there is only one individual working on the whole project, he will manage the project and do all the work. The individual has connections and acquaintances who are skillful on this field and might help him with program implementation and data encryption. The individual will stick to the project plan. So communication might be only from outside the group and not inside.

@@ -1,0 +1,54 @@
+@startuml
+hide empty description
+[*] --> RequirementsGathering
+left to right direction
+
+state RequirementsGathering {
+
+ State state1 as "Dictionary of terms"
+ State state2 as "Determining user roles"
+ State state3 as "Make use case diagram"
+ State state4 as "Functional requirements"
+ State state5 as "Non-functional requirements"
+ State state6 as "Create screen wireframes"
+ State state7 as "Interfaces to external systems"
+ State state8 as "End of requirements gathering"
+
+
+ state2 -> state3
+ state3 -> state4
+ state3 -> state5
+}
+
+RequirementsGathering -> ProjectPlan
+state ProjectPlan {
+State state9 as "Architectural design"
+State state10 as "Structural design"
+State state11 as "Behaviour design"
+}
+
+ProjectPlan -> ProjectImplementation
+state ProjectImplementation {
+State state12 as "Program basic workflow"
+State state13 as "Implement data Protection"
+State state14 as "Implement logging and analsys"
+State state15 as "Create user interface"
+
+state12 -> state13
+state13 -> state14
+state14 -> state15
+}
+
+ProjectImplementation -> Test
+state Test {
+State state16 as "Testing"
+}
+
+Test -> SoftwareRelease
+state SoftwareRelease {
+State state18 as "Generate instructions"
+State state17 as "Software Release"
+}
+
+SoftwareRelease -> [*]
+@enduml

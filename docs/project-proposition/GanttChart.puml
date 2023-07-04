@@ -1,0 +1,38 @@
+@startgantt
+sundays are closed
+Project starts 2023-07-06
+2023-08-28 to 2023-09-07 are colored in darkred
+2023-08-28 to 2023-09-07 are named [TRETJE IZPITNO OBDOBJE] and are closed
+
+-- Requirements Gathering Phase --
+[Dictionary of terms] starts 2023-07-06 and ends 2023-07-06 and is colored in Khaki
+[Determining user roles] starts 2023-07-06 and ends 2023-07-06 and is colored in Khaki
+[Make use case diagram] starts at [Determining user roles]'s end and ends 2023-07-08 and is colored in Khaki
+[Functional requirements] starts at [Make use case diagram]'s end and ends 2023-07-12 and is colored in Khaki
+[Non-functional requirements] starts at [Make use case diagram]'s end and ends 2023-07-12 and is colored in Khaki
+[Create screen wireframes] starts at 2023-07-06 and ends 2023-07-12 and is colored in Khaki
+[Interfaces to external systems] starts at 2023-07-06 and ends 2023-07-12 and is colored in Khaki
+[End of requirements gathering] happens at [Interfaces to external systems]'s end
+
+-- Project Plan Phase --
+[Architectural design] starts at [End of requirements gathering]'s end and lasts 10 days and is colored in LightSteelBlue
+[Structural design] starts at [End of requirements gathering]'s end and lasts 10 days and is colored in LightSteelBlue
+[Behaviour design] starts at [End of requirements gathering]'s end and lasts 10 days and is colored in LightSteelBlue
+[End of project plan] happens at [Behaviour design]'s end
+
+-- Project Implementation Phase --
+[Program basic workflow] starts at [End of project plan]'s end and lasts 21 days and is colored in PaleVioletRed
+[Implement data Protection] starts at [Program basic workflow]'s end and lasts 10 days and is colored in PaleVioletRed
+[Implement logging and analsys] starts at [Implement data Protection]'s end and lasts 10 days and is colored in PaleVioletRed
+[Create user interface] starts at [Implement logging and analsys]'s end and lasts 14 days and is colored in PaleVioletRed
+[End of project implementation] happens at [Create user interface]'s end
+
+-- Test phase --
+[Testing] starts at [End of project implementation]'s end and lasts 5 days and is colored in PaleVioletRed
+[End of Testing] happens at [Testing]'s end
+
+-- Release phase --
+[Software release] starts at [End of Testing]'s end and lasts 10 days and is colored in RosyBrown
+[Instructions] starts at [Software release]'s end and lasts 1 days and is colored in RosyBrown
+
+@endgantt
