@@ -26,13 +26,13 @@ Advanced user intput analysis such as number of words, diversity of words and ot
 - ### Objective
     Solution will be presented as a standalone application. The program will **not** use any communication with internet. User's diary will only be accessible to an individual with their own computer and password. 
 - ### Solution Guidelines
-    The most prioritized guideline building this project will be to assuer high level of data security and assuring simple use and installation of program.
+    The most prioritized guideline on DayDiary will be high level of data security, straight-forward usage and simple installation of program.
 - ### End Users
-    Everyone willing to write a digital diary will be a potential customer. Since there is no clinet-server involved, the number of customers does not affect our service. Expected number of customers is one, but the project will be built as there were millions of which most do not have knowledge of software engineering. Only end users will benefit from this promram, since there are no inderctly connected people to this project.
+    Everyone willing to write a digital diary will be a potential customer. Since there is no clinet-server involved, the number of customers does not affect our service. Expected number of customers is one, but the project will be built as there were millions of which most do not have knowledge of software engineering. Only end users will benefit from this program, since there are no inderctly connected people to this project.
 
 ## 3. Project Plan
 - ### Summary of project activity breakdown,
-The first 6 acitivites to A6 (Interfaces to external systems) are part of requirements gathering. The following regarding project plan are  from A7(Interfaces to external systems) to A 10(Program basic workflow). The other to the last one describe activities to implement and produce the program.
+The first 6 acitivites to A6 (Interfaces to external systems) are part of requirements gathering. The following regarding project plan are  from A7 (Interfaces to external systems) to A10 (Program basic workflow). The rest describe activities to implement and publicate the program.
 - ### Plan of individual activities
   |Activity Label|A1|
   |-|-|
