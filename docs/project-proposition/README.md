@@ -18,7 +18,7 @@ Advanced user intput analysis such as number of words, diversity of words and ot
 
     Before writing to ordinary text files, diaries were written on paper. Doing it in a digital form speeds up the process of writing and comes with other features such as erasing, embellishing text, etc.
 
-    Unlike most common applications, Daydiary will be platform (OS) independent and will provide safe diary encryption. Daydiary has a unique feature of professional data analysis and it's graphical presentation.
+    Unlike most common applications, Daydiary will be platform (OS) independent and will provide safe diary encryption. Daydiary has a unique feature of professional data analysis and it's graphical presentation. DayDiary will offer a unique functionality for labeling a diary and adding a graphical effect to it if someone was shown the diary.
 
     End audience of this project is everyone intenting to write a confidential digital diary. Confidentiality and simplicity of this program will convince our audince to use our solution to get their job done.
 - ### Purpose
