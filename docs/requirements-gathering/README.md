@@ -10,7 +10,7 @@ Representation of functional requirements:
 Simple searching with a keyword on all text will be included. Editing already entered text will be enabled as well as deleting the diary input. User will be expected to save input manually. In case the user forgets to save the unsaved changes, the program should inform user about the potential data loss. 
 Individual diary inputs will have an option of appending an image to it. `Pinning` specific diary will offer a quick access to it in case user wants to see that specific diary entry later on. DayDiary will offer a functionality to mark the text and add a graphical effect to it, in case text was shown to someone. Marking the text can be style (color) specific based on who it was shown to. 
 Exporting text as pdf document in span of custom date will be supported in order to print a diary.
-Every user authentication will be logged and visible to authorized owner. User input will be mathematically analyzed and show in graphical form on charts to users. Text will be processed and analyzed and will offer user a linguistic analysis in a way to improve their expression and vocabulary.
+Every user authentication will be logged and visible to authorized owner. User input will be mathematically analyzed and visible to user in graphical form with charts. Text will be processed and analyzed and will offer user a linguistic analysis in a way to improve their expression and vocabulary.
 
 Representation of non-functional requirements:
 Program will support only one diary entry for each calendar day.
@@ -35,11 +35,21 @@ In filed of writing a diary there are not many technical terms. However, there w
 **Heading** - a word or phrase best describing the *dayrec*
 **Export** - saving diary in a specific format (e.g., PDF, plain text etc.) for external use or archivning
 **Screen Wireframe** - a visual representation of a UI design, often in the form of a static image of a website page or app screen
-
-
 ## 5. Use Case Diagram
+![](http://www.plantuml.com/plantuml/png/VPF1Rjim38RlUWeYFUy11XH5YsJ33jimp6jtwOMr6KUeB0KItJGRzkuBnSHZvg0Nc_pvIPGeyhOmPXw7u5oWDGCdoBxVC7G-Kyi-HLUUVTnYnW6mvPGRtWS2t5590pbNDLXvp4HmVVrf733UtC1LJdiCJs4aE28FldZv6oP89c6SasGO-q2mmhtijeShwjQuVW-_7S1OgCL2K0Xpkm4ii6ZKFE4BGxMPaEaGoTHMTba5-4gxnwYonQdpNB4FOipZ7GLYgiHApJbJy4M9Henv7BTRYbqbxjJyw0FDiuZw5fK9TPVlOcYUid26s66EFlOL-dcqxvxIo8_nFienErXkCFPqlcphOrtoJVuNBZ1WVgx05p5-q2j3emrojWszRbC-LbDDVSnBx8kdNSF8fU8F1m_4zOLzMsnkZ1ZslqYIQctKbrDsihiyAkE55VU5yjaA4Kxqh64cUZcv2mjjKYe64dS6XTGV2_avzU3ZVx4qyXGysEVRowCqnEnZNpH5bU2aMHf7tkZD3WP5zYqoBTmVvqvpzkx6N6jIHVvt4QTp-uQgPtPMijDbTHaZwsj3MqMwp_ewpKQHBhIkD9trfuwnehQSLNJOh79UN1kHWNBElArUsaTNl-9AhTsKMXJJa9S2MiNZ88gi-PnpjnIxSGX_0G00)
 
 ## 6. Functional Requirements
+|Functionality label|Create user|
+|-|-|
+|Description||
+|Main flow||
+|Alternative flow||
+|Execptional flow||
+|Dependencies||
+|Aftermath||
+|Extra||
+|Priority||
+|Acceptance test||
 
 ## 7. Non-functional Requirements
 
