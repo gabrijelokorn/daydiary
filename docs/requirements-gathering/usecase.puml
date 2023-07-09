@@ -61,3 +61,92 @@ warning -> Diaree
 
 
 @enduml
+
+
+--- Diary ---
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Diaree <<Human>> #royalblue 
+actor Visitor <<Human>> #lightblue
+
+rectangle DayDiary #edfaf9 {
+  usecase search as "Search DayDiary"
+  usecase createDayrec as "Create New\nDayrec"
+  usecase edit as "Edit Dayrec"
+  usecase delete as "Delete Dayrec"
+  usecase save as "Save Dayrec"
+  usecase append as "Append File"
+  usecase deleteFile as "Delete File"
+  usecase read as "Read Dayrecs"
+
+  usecase pin as "Pin a Dayrec"
+  usecase mark as "Mark Text Section"
+
+  usecase export as "Export Diary Section"
+
+usecase warning as "Warning About\nUnsaved Changes"
+}
+Diaree  -> createDayrec
+Diaree  -> edit
+Diaree  -> delete
+Diaree  -> save
+Diaree  -> search
+Diaree  -> pin
+Diaree  -> mark
+Diaree  -> export
+Diaree  -> append
+Diaree  -> deleteFile
+Diaree  -> read
+warning -> Diaree
+
+@enduml
+
+--- User ---
+
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Diaree <<Human>> #royalblue 
+actor Visitor <<Human>> #lightblue
+
+rectangle DayDiary #edfaf9 {
+  usecase createUser as "CreateUser"
+  usecase chooseUser as "ChooseUser"
+  usecase login as "Log in"
+  usecase logout as "Log out"
+  usecase changeSettings as "Change Settings"
+  usecase auth as "Authenticate"
+}
+
+Visitor -> createUser
+Visitor  -> chooseUser
+Diaree  -> logout
+Diaree  -> changeSettings
+
+chooseUser -> login
+login -> auth
+@enduml
+
+--- Statistics ---
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Diaree <<Human>> #royalblue
+
+rectangle DayDiary #edfaf9 {
+  usecase viewStats as "View Statistics"
+  usecase analyzeText as "Analyze Daydiary\nData"
+  usecase analyzeUser as "Analyze User\nData"
+
+}
+
+viewStats -> analyzeText
+viewStats -> analyzeUser
+
+Diaree -> viewStats
+
+@enduml
