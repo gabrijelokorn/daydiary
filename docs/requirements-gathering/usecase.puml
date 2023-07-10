@@ -1,68 +1,3 @@
-@startuml
-
-left to right direction
-skinparam actorStyle awesome
-
-actor Diaree <<Human>> #royalblue 
-actor Visitor <<Human>> #lightblue
-
-rectangle DayDiary #edfaf9 {
-  usecase search as "Search DayDiary"
-  usecase createDayrec as "Create New\nDayrec"
-  usecase edit as "Edit Dayrec"
-  usecase delete as "Delete Dayrec"
-  usecase save as "Save Dayrec"
-  usecase append as "Append File"
-  usecase deleteFile as "Append File"
-  usecase read as "Read Dayrecs"
-
-  usecase warning as "Warning About\nUnsaved Changes"
-
-  usecase pin as "Pin a Dayrec"
-  usecase mark as "Mark Text Section"
-
-  usecase export as "Export Diary Section"
-
-  usecase viewStats as "View Statistics"
-  usecase analyzeText as "Analyze Daydiary\nData"
-  usecase analyzeUser as "Analyze User\nData"
-
-  usecase createUser as "CreateUser"
-  usecase chooseUser as "ChooseUser"
-  usecase login as "Log in"
-  usecase logout as "Log out"
-  usecase changeSettings as "Change Settings"
-  usecase auth as "Authenticate"
-}
-
-Visitor -> createUser
-Visitor  -> chooseUser
-Diaree  -> chooseUser
-Diaree  -> logout
-
-Diaree  -> createDayrec
-Diaree  -> edit
-Diaree  -> delete
-Diaree  -> save
-Diaree  -> search
-Diaree  -> pin
-Diaree  -> mark
-Diaree  -> viewStats
-Diaree  -> export
-Diaree  -> append
-Diaree  -> changeSettings
-Diaree  -> read
-
-chooseUser -> login
-login -> auth
-viewStats -> analyzeText
-viewStats -> analyzeUser
-warning -> Diaree
-
-
-@enduml
-
-
 --- Diary ---
 @startuml
 left to right direction
@@ -73,7 +8,6 @@ actor Visitor <<Human>> #lightblue
 
 rectangle DayDiary #edfaf9 {
   usecase search as "Search DayDiary"
-  usecase createDayrec as "Create New\nDayrec"
   usecase edit as "Edit Dayrec"
   usecase delete as "Delete Dayrec"
   usecase save as "Save Dayrec"
@@ -88,7 +22,6 @@ rectangle DayDiary #edfaf9 {
 
 usecase warning as "Warning About\nUnsaved Changes"
 }
-Diaree  -> createDayrec
 Diaree  -> edit
 Diaree  -> delete
 Diaree  -> save
@@ -113,8 +46,9 @@ actor Diaree <<Human>> #royalblue
 actor Visitor <<Human>> #lightblue
 
 rectangle DayDiary #edfaf9 {
-  usecase createUser as "CreateUser"
-  usecase chooseUser as "ChooseUser"
+  usecase deleteUser as "Delete Diaree"
+  usecase createUser as "Create Diaree"
+  usecase chooseUser as "Choose Diaree"
   usecase login as "Log in"
   usecase logout as "Log out"
   usecase changeSettings as "Change Settings"
@@ -123,6 +57,8 @@ rectangle DayDiary #edfaf9 {
 
 Visitor -> createUser
 Visitor  -> chooseUser
+Diaree  -> deleteUser
+deleteUser -> auth
 Diaree  -> logout
 Diaree  -> changeSettings
 
@@ -139,14 +75,8 @@ actor Diaree <<Human>> #royalblue
 
 rectangle DayDiary #edfaf9 {
   usecase viewStats as "View Statistics"
-  usecase analyzeText as "Analyze Daydiary\nData"
-  usecase analyzeUser as "Analyze User\nData"
 
 }
 
-viewStats -> analyzeText
-viewStats -> analyzeUser
-
 Diaree -> viewStats
-
 @enduml
