@@ -5,14 +5,14 @@ Daydiary is a program for storing user's diary - what has happened over the cour
 Program comes with a graphical interface - calendar view of the stored diaries. Every diary, which is bound to specific unique date has an option of inserting an image, leaving a note and pinning the content. Latter is used for faster access of specific content when searching and is in other applications often denoted as _favorites_.\
 The data the program stores is only on user's personal computer and is not accessible to anyone else. Password protection is optional, but recommended.\
 Optionaly, the author of the diary will have an opportunity to export the diary as _pdf document_.\
-Advanced user intput analysis such as number of words, diversity of words and others will be availible to end users and will be graphically supported.
+Advanced user intput analysis such as number of words, diversity of words and others will be availible to end users and will be shown on charts.
 ## 2. Project Idea
 - ### Background
     Writing a diary is not a common activty and there are not many programs supporting it. People writing a diary digitaly often encounter a problem of programs not offering confidentiality. It is however among the most important concepts of writing a diary and should not be ignored.
     
     A few applications offering similar service are availible for free. Among them are best known [Day One](https://dayoneapp.com/) (Unix), [RedNotebook](https://rednotebook.app/) (Linux) and [Diarium](https://diariumapp.com/) (Windows).
 
-    The other solutions do not offer everything one might desire, such as expotring to pdf, pining the diary input etc. DayDiary will offer specifics that other apps might have missed.
+    The other solutions do not offer everything one might desire, such as expotring to pdf, pining the diary input etc. DayDiary will offer specifics that other apps might have missed. Daydiary will support marking the part of diary that was shown to somebody to keep the track of it.
 - ### Area and Motivation
     We got asipiration when we searched the World Web for an appropiate *diary* program for Linux OS. We did not find any great solution that could satisfiy our safty needs.
 
