@@ -4,7 +4,6 @@ left to right direction
 skinparam actorStyle awesome
 
 actor Diaree <<Human>> #royalblue 
-actor Visitor <<Human>> #lightblue
 
 rectangle DayDiary #edfaf9 {
   usecase search as "Search DayDiary"
@@ -15,29 +14,29 @@ rectangle DayDiary #edfaf9 {
   usecase deleteFile as "Delete File"
   usecase read as "Read Dayrecs"
 
+  usecase unpin as "Unpin a Dayrec"
   usecase pin as "Pin a Dayrec"
   usecase mark as "Mark Text Section"
 
   usecase export as "Export Diary Section"
 
-usecase warning as "Warning About\nUnsaved Changes"
+usecase message as "Application Message"
 }
 Diaree  -> edit
 Diaree  -> delete
 Diaree  -> save
 Diaree  -> search
+Diaree  -> unpin
 Diaree  -> pin
 Diaree  -> mark
 Diaree  -> export
 Diaree  -> append
 Diaree  -> deleteFile
 Diaree  -> read
-warning -> Diaree
+message -> Diaree
 
 @enduml
-
 --- User ---
-
 @startuml
 left to right direction
 skinparam actorStyle awesome
@@ -46,23 +45,24 @@ actor Diaree <<Human>> #royalblue
 actor Visitor <<Human>> #lightblue
 
 rectangle DayDiary #edfaf9 {
-  usecase deleteUser as "Delete Diaree"
   usecase createUser as "Create Diaree"
-  usecase chooseUser as "Choose Diaree"
   usecase login as "Log in"
   usecase logout as "Log out"
   usecase changeSettings as "Change Settings"
   usecase auth as "Authenticate"
+  usecase deleteUser as "Delete Diaree"
+  usecase sysMsg as "Application Message"
 }
 
 Visitor -> createUser
-Visitor  -> chooseUser
+Visitor  -> login
 Diaree  -> deleteUser
 deleteUser -> auth
 Diaree  -> logout
 Diaree  -> changeSettings
+sysMsg  -> Visitor
+sysMsg  -> Diaree
 
-chooseUser -> login
 login -> auth
 @enduml
 
