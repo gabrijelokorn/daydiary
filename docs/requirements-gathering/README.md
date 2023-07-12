@@ -296,6 +296,7 @@ In filed of writing a diary there are not many technical terms. However, there w
   - Since the anaylitics of text are a time demanding algorithms it may take a little longer to get the desired statistics information. In case it will take too long a workaround will be done.
 ## 8. Screen Wireframes
 An outline of what application will look like is presented here with screen wireframes, which represent all the functionalities.
+
 Create Diaree:\
 ![](./screen-wireframes/CreateDiaree.png)\
 Log in:\
