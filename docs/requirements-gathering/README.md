@@ -295,5 +295,27 @@ In filed of writing a diary there are not many technical terms. However, there w
 - Statistics of diaree should be availabe after at most 1000ms.
   - Since the anaylitics of text are a time demanding algorithms it may take a little longer to get the desired statistics information. In case it will take too long a workaround will be done.
 ## 8. Screen Wireframes
+An outline of what application will look like is presented here with screen wireframes, which represent all the functionalities.
+Create Diaree:
+![](./screen-wireframes/CreateDiaree.png)
+Log in:
+![](./screen-wireframes/Login.png)
+Delete Diaree and Log out:
+![](./screen-wireframes/DeleteDiaree%20%26%20Log%20out.png)
+Change Settings:
+![](./screen-wireframes/Change%20settings.png)
+Application message:
+![](./screen-wireframes/Application%20Message.png)
+View Statistics:
+![](./screen-wireframes/View%20Statistics.png)
+Edit Dayrec, Delete Dayrec, Save Dayrec, Unpin Dayrec, Pin Dayrec, Append File, Delete File, Mark Text Seciton:
+![](./screen-wireframes/Editor.png)
+Search Daydiary:
+![](./screen-wireframes/Search%20and%20Read%20DayDiary.png)
+Export Text Section:
+![](./screen-wireframes/Export%20Diary%20Seciton.png)
+Calendar view:
+![](./screen-wireframes/Template.png)
 
 ## 9. Interfaces to External Systems
+The application focuses on privacy, therefore it will not have any interactions with external systems or the internet in general.
