@@ -1,8 +1,8 @@
 @startgantt
 sundays are closed
 Project starts 2023-07-06
-2023-08-28 to 2023-09-07 are colored in darkred
-2023-08-28 to 2023-09-07 are named [TRETJE IZPITNO OBDOBJE] and are closed
+2023-08-28 to 2023-09-07 are named [TRETJE IZPITNO OBDOBJE] and are closed and are colored in salmon
+2023-07-19 to 2023-07-21 are named [SENLAB KAMP] and are closed and are colored in salmon
 
 -- Requirements Gathering Phase --
 [Dictionary of terms] starts 2023-07-06 and ends 2023-07-06 and is colored in Khaki
@@ -21,18 +21,18 @@ Project starts 2023-07-06
 [End of project plan] happens at [Behaviour design]'s end
 
 -- Project Implementation Phase --
-[Program basic workflow] starts at [End of project plan]'s end and lasts 21 days and is colored in PaleVioletRed
-[Implement data Protection] starts at [Program basic workflow]'s end and lasts 10 days and is colored in PaleVioletRed
+[Program basic workflow] starts at [End of project plan]'s end and lasts 28 days and is colored in PaleVioletRed
+[Implement data Protection] starts at [Program basic workflow]'s end and lasts 14 days and is colored in PaleVioletRed
 [Implement logging and analsys] starts at [Implement data Protection]'s end and lasts 10 days and is colored in PaleVioletRed
-[Create user interface] starts at [Implement logging and analsys]'s end and lasts 14 days and is colored in PaleVioletRed
+[Create user interface] starts at [Implement logging and analsys]'s end and lasts 21 days and is colored in PaleVioletRed
 [End of project implementation] happens at [Create user interface]'s end
 
 -- Test phase --
-[Testing] starts at [End of project implementation]'s end and lasts 5 days and is colored in PaleVioletRed
+[Testing] starts at [End of project implementation]'s end and lasts 7 days and is colored in PaleVioletRed
 [End of Testing] happens at [Testing]'s end
 
 -- Release phase --
-[Software release] starts at [End of Testing]'s end and lasts 10 days and is colored in RosyBrown
-[Instructions] starts at [Software release]'s end and lasts 1 days and is colored in RosyBrown
+[Software release] starts at [End of Testing]'s end and lasts 14 days and is colored in RosyBrown
+[Instructions] starts at [Software release]'s end and lasts 3 days and is colored in RosyBrown
 
 @endgantt

@@ -114,8 +114,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A8|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|24.07.2023|
-  |Duration|10|
+  |Estimated Completion Date of Activity|27.07.2023|
+  |Duration|14|
   |Name of activity|**Architectural design**|
   |List of Activity Objectives|Develop a view of architecture to show how the components of system and outside of system interact|
   |Description of Activity|Design an UML diagram of project architecture for logical, physical, process and development perspective. Use *Design Patterns*|
@@ -125,8 +125,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A9|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|24.07.2023|
-  |Duration|10|
+  |Estimated Completion Date of Activity|27.07.2023|
+  |Duration|14|
   |Name of activity|**Structural design**|
   |List of Activity Objectives|<ul><li>Define and name all structrues in program</li><li>Relation and mulitplication between classes</li></ul>|
   |Description of Activity|Design UML class diagram of project, their basic functions and relations between them. Use *Design Patterns*|
@@ -136,8 +136,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A10|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|24.07.2023|
-  |Duration|10|
+  |Estimated Completion Date of Activity|27.07.2023|
+  |Duration|14|
   |Name of activity|**Behaviour design**|
   |List of Activity Objectives|Design sequence diagram, state diagam or activity diagram based on basic and alternative flows|
   |Description of Activity|Decide which of the diagrams (sequence diagram, state diagam and activity diagram) should be included and implement them with UML. Use *Design Patterns*|
@@ -146,9 +146,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A11|
   |-|-|
-  |Estimated Start Date of Activity|24.07.2023|
-  |Estimated Completion Date of Activity|17.08.2023|
-  |Duration|21|
+  |Estimated Start Date of Activity|28.07.2023|
+  |Estimated Completion Date of Activity|09.09.2023|
+  |Duration|28|
   |Name of activity|**Program basic workflow**|
   |List of Activity Objectives|Working basic input and output of the program without security and user interface|
   |Description of Activity|Program basic functionalities of the program. |
@@ -157,9 +157,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A12|
   |-|-|
-  |Estimated Start Date of Activity|17.08.2023|
-  |Estimated Completion Date of Activity|09.09.2023|
-  |Duration|10|
+  |Estimated Start Date of Activity|13.09.2023|
+  |Estimated Completion Date of Activity|26.09.2023|
+  |Duration|14|
   |Name of activity|**Implement data Protection**|
   |List of Activity Objectives|To secure data of the user input|
   |Description of Activity|Program or use existing algorithnm for data encryption|
@@ -168,8 +168,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A13|
   |-|-|
-  |Estimated Start Date of Activity|09.09.2023|
-  |Estimated Completion Date of Activity|21.09.2023|
+  |Estimated Start Date of Activity|27.09.2023|
+  |Estimated Completion Date of Activity|07.10.2023|
   |Duration|10|
   |Name of activity|**Implement logging and analsys**|
   |List of Activity Objectives|<ul><li>Storing user data</li><li>Analyzing user data</li></ul>|
@@ -179,9 +179,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A14|
   |-|-|
-  |Estimated Start Date of Activity|22.09.2023|
-  |Estimated Completion Date of Activity|07.10.2023|
-  |Duration|14|
+  |Estimated Start Date of Activity|09.10.2023|
+  |Estimated Completion Date of Activity|01.11.2023|
+  |Duration|21|
   |Name of activity|**Create user interface**|
   |List of Activity Objectives|<ul><li>working user interface, platform independent</li><li>plotting graphs of user input</li></ul>|
   |Description of Activity|Decide for best library and implement the program to a standalone application|
@@ -190,9 +190,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A15|
   |-|-|
-  |Estimated Start Date of Activity|07.10.2023|
-  |Estimated Completion Date of Activity|13.10.2023|
-  |Duration|5|
+  |Estimated Start Date of Activity|02.11.2023|
+  |Estimated Completion Date of Activity|09.11.2023|
+  |Duration|7|
   |Name of activity|**Testing**|
   |List of Activity Objectives|Test the application|
   |Description of Activity|Final test of the program|
@@ -201,9 +201,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A16|
   |-|-|
-  |Estimated Start Date of Activity|13.10.2023|
-  |Estimated Completion Date of Activity|25.10.2023|
-  |Duration|10|
+  |Estimated Start Date of Activity|10.11.2023|
+  |Estimated Completion Date of Activity|25.11.2023|
+  |Duration|14|
   |Name of activity|**Software release**|
   |List of Activity Objectives|<ul><li>Make program accessible to end users</li></ul>|
   |Description of Activity|Create a program to install an app for different platforms.|
@@ -212,9 +212,9 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A17|
   |-|-|
-  |Estimated Start Date of Activity|25.10.2023|
-  |Estimated Completion Date of Activity|26.10.2023|
-  |Duration|1|
+  |Estimated Start Date of Activity|26.11.2023|
+  |Estimated Completion Date of Activity|29.11.2023|
+  |Duration|3|
   |Name of activity|**Instruction**|
   |List of Activity Objectives|<ul><li>Help end users using the application</li></ul>|
   |Description of Activity|Write user manual and instructions|
@@ -244,7 +244,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
 
 - ### Gantt chart
-![Link name](http://www.plantuml.com/plantuml/png/nPPFRzD04CNl_XHpusGf3Nyejn8QK0gqKHfn8EfXiCVsairkc1aJyksndJhQo7KWWCgjpMxUxxsTFyg5ABBcw5GZALsAMm5aWiHweJIQilzAYK9pIs0u63wD1o_ZmOjez-TvF3m7zVS7hwgptRUzzKmf60Sfyf8fFNxVuOfIMCndu_dL62QVfvFvzGtSZ2vlHbVZEq2NXgQYE8OPVIiDqugS2hn3BOYDos5Qe134SRIuD8aQxv2tu3DGufNSTMCqqkJIpcT6mX3l2roQIfDg7UDgKYd4mDxItyj-n2NLUf3KvbE3EUDghueAVU0dKaCUW9ttmzwMRlSm5ZXumn3NOwYFTZRifrrx5sUFIdp3X4eW2HCvs5Iqh9AY41SKvJJjYLFY31EIkeVfXnBNgMGhIgj_GXXN1puxU2V8s-w-WmBNQt8DuRYPjZUQMMc7U6hH1HFocfF2Q7LGCbf8IKpkmWp7pOJ5iIWgS3Q0PdrqmtqmUQ6tIcH7jgHeSQjS_WViY0hyRdp9ZqbjXTVtHLXRT0U5xDXwg7IJrTesfb2D3ujONQX71RwWc0GsdfUPzPl3P5q3tJp3ixuyKxJqoNXBEgCqMkoTG8gAjK6bPhn3Pe-j_cSy0MjzdjTx41iXjBAL4DrlyC_fxL9fLgzfvwvBxVNN9J_xBNAdUqpO1uTzr6CoQAOvYS9wtphrlvNHCCPnN3V6yzDIjCJGTciZD3eZIoWKUBtrcMwG2NXtr34Tg9zGvfcNxOZznjMxNPJBfb4aLE-Yk_g_beykoANDhwoV)
+![Link name](https://cdn-0.plantuml.com/plantuml/png/nPPDRzf048Rl_XLpwyaIaAeXjuI6LkGZGO1wACfXQe_jRTQxT6TSoh-lxSJfeetJebRfZMMMztddOqUSig2J78r8n9L9SSU0ZY3HbYcDviv-fKIWlSKm6eoEui5nF7WNFNmSnwCnY7qCdDInzjS6IqfXlLfCLnTJc7sUprOtjt0xER-TN4pl04tgGNuThRQkFYi3ZBgq9kfumvCEqfn6Gn-odDvSdKtWyknwVe1o5CUme6-LSbII4OQFA0KvPNAO5yW4SHojprKYoXfqEx0P2BcIxy9Ij1GoQV2TOXzyMU2zgZMfqL6c8LLC3fpLzFUortXFZHuaZVbKOUwmV595WJxm6suWpy36_R0FbNaeZ0RdrT37zHZgemr7_RGRQ-BiLOdl7Q4GSEA836nhMbPBaO_pcdAOzim8kGmJucQawKTzQhBY7GkL_uGmhGCsswiJvDrqtq61cmsPbl2ocMusshVIBOAvHkEza3EN54hgGELGGqgiSkFdyB8PlpaQkGuD1z2ke32vAvKNiXGYFT4LHUkbkEe_O2TKu7TbA_UQr4vuyzY4ZKQpryZ0rdEjcvKRtPf2KTPlOdsXUIhm1LabiBNkFjDs6sQsRo3CPpJkosUEcZufgqaMb4Rh9oUGec1ZKAXztZwpprPOnhS7OxNDysOFOYk4cdVie_iD7jB4VNgtLDhLgxft5r9x_ONb7luHEPWUvS_1_XprcFI6QKKii7aQdUPO6_NJU1aNfd5yM1OTqRVTsV2DBaWJCdbUbpQJBJe2zn0AJ7lg1mpPml9kukpMDBkTnLNjeB2l7g83_QFVoqUdPDBsdzfF)
 
 <!-- - ### PERT Graph -->
 <!-- ![](http://www.plantuml.com/plantuml/png/ZPHFZzCm4CNl_XIZ7f4gKMZvSq7BV-q1jDfoGnnCCadDEdOPJoWLuhip7gVT95I8G-Lg_9lnqvkdN2Msn7tdpSxL2DZj-GWrfehSdbqCvlE3Bx1Sle1R_DuxmWu3f_UMTqWkjCPZmy0HoBKxXbg0IhkCZ6Myt0I_36prMg4Ls0IBDquRBHqXDi18NLgO2VUeS9ZlNCXp-eG453qAEYOVA_d1tc56eB89HPfjoNPJSAtWkpwKjptGIEyKtIZwCOPbyp_u4yLV4sgb8iG01q4RqJ2N-rJPwy18ZQqmPJ_n9oFb9z8nCNQpZcVQyJRKujL41BGdaxDvWssol6AB6SvpPVrNPMD-6tDvQuBSKFo65Tzu6upYuugiTIJnkKfyITNEiG0zMPzZvTgm66EhXyfjcVf_G2k5Nk7E_d2nfpCZMaS2HWglkxrN_PPTd6gTtirKhqh8XCnXWQyskGeEaUuQ7mzJJILavs5GMxRv2KPDnnHUps0VspPxQaCjF-jbozE6pJW_cdDtoeTijZ33PbMC6SxxqjeCvtr9btlP1M4-OUBIetzdnfH0vmlHhSuh97tRsF314jwYHvkmZ9XNPzDAv4yC392EdJVA2_89CbSOwhxpVm00) -->

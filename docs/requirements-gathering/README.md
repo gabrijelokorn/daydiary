@@ -17,7 +17,7 @@ Program will support only one diary entry for each calendar day.
 As the program is stored locally it will be available offline and whenever the computer will be acessible. Application will support usage of only one diaree.\
 DayDiary will be reiliable: diary entries will be saved in a retrievable way without loss or corruption of data. Application will be installable on all operating systems (Linux, Windows, MacOS). Only english language will be supported for use of this program.\
 Optionally individual user will be able to customize stylish settings such as application background, fonts, etc.\
-The final package of the program should be easy to install and use. Users should be supported with well documented functionalities.\
+The final package of the program should be easy to install and use. Users should be supported with well documented functionalities.
 
 ## 3. User Roles
 Since DayDiary will be made for offline private purposes, it's user roles and relations between them will be quiet simple.
@@ -316,7 +316,7 @@ Search Daydiary:\
 Export Text Section:\
 ![](./screen-wireframes/Export%20Diary%20Seciton.png)\
 Calendar view:\
-![](./screen-wireframes/Template.png)\
+![](./screen-wireframes/Template.png)
 
 ## 9. Interfaces to External Systems
 The application focuses on privacy, therefore it will not have any interactions with external systems or the internet in general.
