@@ -15,14 +15,14 @@ Every user authentication will be logged and visible to authorized owner. User i
 Representation of ***non-functional requirements***:\
 Program will support only one diary entry for each calendar day.
 As the program is stored locally it will be available offline and whenever the computer will be acessible. Application will support usage of only one diaree.\
-DayDiary will be reiliable: diary entries will be saved in a retrievable way without loss or corruption of data. Application will be installable on all operating systems (Linux, Windows, MacOS). Only english language will be supported for use of this program.\
+DayDiary will be reiliable: diary entries will be saved and encrypted in a retrievable way without loss or corruption of data. Application will be installable on all operating systems (Linux, Windows, MacOS). Only english language will be supported for use of this program.\
 Optionally individual user will be able to customize stylish settings such as application background, fonts, etc.\
 The final package of the program should be easy to install and use. Users should be supported with well documented functionalities.
 
 ## 3. User Roles
 Since DayDiary will be made for offline private purposes, it's user roles and relations between them will be quiet simple.
 - **Diaree** - an authorized user of diary: can log in and out of program, use all functionalities of DayDiary and is authorized to edit, delete and change user data
-- **Visitor** - unauthorized user that can only view list of already existing user profiles and choose one of them to become *diaree*.
+- **Visitor** - unauthorized user that can only view list of already existing user profile and choose one of them to become *diaree*. Can see functionalities and workflow of application.0
 
 *Visitor* has a potential to become *Diaree*.
 ## 4. Glossary of Terms
@@ -166,8 +166,8 @@ In filed of writing a diary there are not many technical terms. However, there w
 |Functionality label|Save Dayrec|
 |-|-|
 |Description|Diaree can save the local changes they made on dayrec to drive.|
-|Main flow|<ol><li>Diaree clicks on save button in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to drive</li></ol>|
-|Alternative flow|<ol><li>Diaree presses ctrl+s in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to drive</li></ol>|
+|Main flow|<ol><li>Diaree clicks on save button in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to drive</li><li>Optionally changes get saved on another drive (backup)</li></ol>|
+|Alternative flow|<ol><li>Diaree presses ctrl+s in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to drive</li><li>Optionally changes get saved on another drive (backup)</li></ol>|
 |Execptional flow|<ul><li>Not enough space on the drive. The application returns error message.</li></ul>|
 |Dependencies|Enough available space on drive.|
 |Aftermath|Encrypted updated content of dayrec is stored on drive.|

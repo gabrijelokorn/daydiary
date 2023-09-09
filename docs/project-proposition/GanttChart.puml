@@ -15,9 +15,9 @@ Project starts 2023-07-06
 [End of requirements gathering] happens at [Interfaces to external systems]'s end
 
 -- Project Plan Phase --
-[Architectural design] starts at [End of requirements gathering]'s end and lasts 20 days and is colored in LightSteelBlue
-[Structural design] starts at [End of requirements gathering]'s end and lasts 20 days and is colored in LightSteelBlue
-[Behaviour design] starts at [End of requirements gathering]'s end and lasts 20 days and is colored in LightSteelBlue
+[Architectural design] starts at [End of requirements gathering]'s end and lasts 37 days and is colored in LightSteelBlue
+[Structural design] starts at [End of requirements gathering]'s end and lasts 37 days and is colored in LightSteelBlue
+[Behaviour design] starts at [End of requirements gathering]'s end and lasts 37 days and is colored in LightSteelBlue
 [End of project plan] happens at [Behaviour design]'s end
 
 -- Project Implementation Phase --

@@ -3,7 +3,7 @@
 ## 1. Project Summary
 Daydiary is a program for storing user's diary - what has happened over the course of the day or other period of time.\
 Program comes with a graphical interface - calendar view of the stored diaries. Every diary, which is bound to specific unique date has an option of inserting an image, leaving a note and pinning the content. Latter is used for faster access of specific content when searching and is in other applications often denoted as _favorites_.\
-The data the program stores is only on user's personal computer and is not accessible to anyone else. Password protection is optional, but recommended.\
+The data the program stores is only on user's personal computer and is not accessible to anyone else. It comes with possibility of creating backup (in case of having multiple disks). Password protection is optional, but recommended.\
 Optionaly, the author of the diary will have an opportunity to export the diary as _pdf document_.\
 Advanced user intput analysis such as number of words, diversity of words and others will be availible to end users and will be shown on charts.
 ## 2. Project Idea
@@ -12,17 +12,17 @@ Advanced user intput analysis such as number of words, diversity of words and ot
     
     A few applications offering similar service are availible for free. Among them are best known [Day One](https://dayoneapp.com/) (Unix), [RedNotebook](https://rednotebook.app/) (Linux) and [Diarium](https://diariumapp.com/) (Windows).
 
-    The other solutions do not offer everything one might desire, such as expotring to pdf, pining the diary input etc. DayDiary will offer specifics that other apps might have missed. Daydiary will support marking the part of diary that was shown to somebody to keep the track of it.
+    The other solutions do not offer everything one might desire, such as expotring to pdf, pining the diary input etc. DayDiary will offer specifics that other apps might have missed. Daydiary will support marking the part of diary that was shown to somebody to keep track of it.
 - ### Area and Motivation
     We got asipiration when we searched the World Web for an appropiate *diary* program for Linux OS. We did not find any great solution that could satisfiy our safty needs.
 
     Before writing to ordinary text files, diaries were written on paper. Doing it in a digital form speeds up the process of writing and comes with other features such as erasing, embellishing text, etc.
 
-    Unlike most common applications, Daydiary will be platform (OS) independent and will provide safe diary encryption. Daydiary has a unique feature of professional data analysis and it's graphical presentation. DayDiary will offer a unique functionality for labeling a diary and adding a graphical effect to it if someone was shown the diary.
+    Unlike most common applications, DayDiary will be platform (OS) independent and will provide safe diary encryption. Daydiary has a unique feature of professional data analysis and it's graphical presentation. DayDiary will offer a unique functionality for labeling a diary and adding a graphical effect to it if someone was shown the diary.
 
     End audience of this project is everyone intenting to write a confidential digital diary. Confidentiality and simplicity of this program will convince our audince to use our solution to get their job done.
 - ### Purpose
-    Solution serves as an accessory for an individual personal growth. Program does not have any use in scientific and reaserch space or business. This project's main goal is to make **confidential** digital diary for users of Linux operating system. Since there are no free solutions to assure confidential and user friendly use of digital diary, DayDiary will make this contribution to free market. End users will be able to analyze their diary input and improve their expression of thoughs.
+    Solution serves as an accessory for an individual personal growth. Program does not have any use in scientific and reaserch space or business. This project's main goal is to make **confidential** digital diary for users of Linux operating system. Since there are no free solutions to assure confidential and user friendly use of digital diary, DayDiary will make this contribution to the free market. End users will be able to analyze their diary input and improve their expression of thoughs.
 - ### Objective
     Solution will be presented as a standalone application. The program will **not** use any communication with internet. User's diary will only be accessible to an individual with their own computer and password. 
 - ### Solution Guidelines
@@ -114,7 +114,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A8|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|27.07.2023|
+  |Estimated Completion Date of Activity|23.09.2023|
   |Duration|14|
   |Name of activity|**Architectural design**|
   |List of Activity Objectives|Develop a view of architecture to show how the components of system and outside of system interact|
@@ -125,7 +125,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A9|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|27.07.2023|
+  |Estimated Completion Date of Activity|23.09.2023|
   |Duration|14|
   |Name of activity|**Structural design**|
   |List of Activity Objectives|<ul><li>Define and name all structrues in program</li><li>Relation and mulitplication between classes</li></ul>|
@@ -136,7 +136,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
   |Activity Label|A10|
   |-|-|
   |Estimated Start Date of Activity|13.07.2023|
-  |Estimated Completion Date of Activity|27.07.2023|
+  |Estimated Completion Date of Activity|23.09.2023|
   |Duration|14|
   |Name of activity|**Behaviour design**|
   |List of Activity Objectives|Design sequence diagram, state diagam or activity diagram based on basic and alternative flows|
@@ -146,8 +146,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A11|
   |-|-|
-  |Estimated Start Date of Activity|28.07.2023|
-  |Estimated Completion Date of Activity|09.09.2023|
+  |Estimated Start Date of Activity|25.09.2023|
+  |Estimated Completion Date of Activity|18.10.2023|
   |Duration|28|
   |Name of activity|**Program basic workflow**|
   |List of Activity Objectives|Working basic input and output of the program without security and user interface|
@@ -157,8 +157,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A12|
   |-|-|
-  |Estimated Start Date of Activity|13.09.2023|
-  |Estimated Completion Date of Activity|26.09.2023|
+  |Estimated Start Date of Activity|19.10.2023|
+  |Estimated Completion Date of Activity|26.10.2023|
   |Duration|14|
   |Name of activity|**Implement data Protection**|
   |List of Activity Objectives|To secure data of the user input|
@@ -168,8 +168,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A13|
   |-|-|
-  |Estimated Start Date of Activity|27.09.2023|
-  |Estimated Completion Date of Activity|07.10.2023|
+  |Estimated Start Date of Activity|27.10.2023|
+  |Estimated Completion Date of Activity|07.11.2023|
   |Duration|10|
   |Name of activity|**Implement logging and analsys**|
   |List of Activity Objectives|<ul><li>Storing user data</li><li>Analyzing user data</li></ul>|
@@ -179,8 +179,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A14|
   |-|-|
-  |Estimated Start Date of Activity|09.10.2023|
-  |Estimated Completion Date of Activity|01.11.2023|
+  |Estimated Start Date of Activity|08.11.2023|
+  |Estimated Completion Date of Activity|01.12.2023|
   |Duration|21|
   |Name of activity|**Create user interface**|
   |List of Activity Objectives|<ul><li>working user interface, platform independent</li><li>plotting graphs of user input</li></ul>|
@@ -190,8 +190,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A15|
   |-|-|
-  |Estimated Start Date of Activity|02.11.2023|
-  |Estimated Completion Date of Activity|09.11.2023|
+  |Estimated Start Date of Activity|02.12.2023|
+  |Estimated Completion Date of Activity|09.12.2023|
   |Duration|7|
   |Name of activity|**Testing**|
   |List of Activity Objectives|Test the application|
@@ -201,8 +201,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A16|
   |-|-|
-  |Estimated Start Date of Activity|10.11.2023|
-  |Estimated Completion Date of Activity|25.11.2023|
+  |Estimated Start Date of Activity|10.12.2023|
+  |Estimated Completion Date of Activity|26.12.2023|
   |Duration|14|
   |Name of activity|**Software release**|
   |List of Activity Objectives|<ul><li>Make program accessible to end users</li></ul>|
@@ -212,8 +212,8 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
   |Activity Label|A17|
   |-|-|
-  |Estimated Start Date of Activity|26.11.2023|
-  |Estimated Completion Date of Activity|29.11.2023|
+  |Estimated Start Date of Activity|27.12.2023|
+  |Estimated Completion Date of Activity|29.12.2023|
   |Duration|3|
   |Name of activity|**Instruction**|
   |List of Activity Objectives|<ul><li>Help end users using the application</li></ul>|
@@ -244,7 +244,7 @@ The first 6 acitivites to A6 (Interfaces to external systems) are part of requir
 
 
 - ### Gantt chart
-![Link name](http://www.plantuml.com/plantuml/png/nPPFSzey4CRl_XHxUq-U0V9EGsu93UsGFma3J0zbSjZQQrkDB56jNCgthwN4gHZ5QPXsqXj2ulazgtsqmobRDBP4PMt2ZSfnnu2689EQAK_cHd-bp88_nJ0QZ8xImN4wU9SyV1odep5O_RXnqkxvNokiAOVrQZ5TNKnXzda-MztSmkta_7PoCRq3L7a0-RNKKfjsBHGmobghfECDJpg8Mus68MGvlRawcy3bsVNy0EKaJM51tnfXg2Pb6JwYhSW8LSAyGYP8qsHzBZ8hj4Ap0rs09LFpNNmLda8gZxuJ788lAxmNhIOv7Q4SgM4oOBIaFvUzndjoUf0vyxd0qc3zf8eM-i3_iOCy0nltmpuqwk5Y99ZW3aDSZw4-sd3KJxlHAYtUbFZU45e2pWoHWcrBAref2d51KmxJdYbBfi2Cs4MQVhGhLnNls5BzLmZJTaCNU_S4PPVkEwXmio7b2I-RwRBXtqet2EOILV12panM2TjkD0ObvCIYL64DBvi9coEHVVp1Zw2uk2jHLdPfYUH4DfIibzOq_m0xeGg_2zsOjwHsmfl79cmaglr6HhQUQTsitaXl2gtGOHFR0-wfm1TaaS5Mc_j2wcrOsRC6udh6VVNCKT8deINP1UN9-ia9v6ZH6RJadtV8xB4LOuV_7uoLkYpT74GlX99tl8VkDnZJ1w-ZTqF5ZrxHlRk8skyllkxXgyXHUaIOW_qSzPWCmhGYjh1vYevRjaRZhFJXuZAE3wkY8uQsEnkXqGL9GgR0wr8NTek6m3niHQO3zGD2jj2ycnYzLMwsipMD3mg7wZ4wqZ_wlNnoIYht_zH-0W00)
+![Link name](http://www.plantuml.com/plantuml/png/nPPFJzjC4CRl_XHpUq-Mal2gX1kaf5Nu0r4IzT28mzGUsrlMk-dEk6c-VMs3wKQBAL4hUcCPy_oUsNbsn2aBEidHY4HScHHt3EW84csPqcZkx5TA1Dgl64Q3qL4yE8u7xwA77yVnQ0nY7midTQtzQuCbfR1UBQQhYodCFizdgvjRk9sStqukfdU09lKWluvMMrUVbG56NLeJTRpXIGFfJgEX3rbERwxE9d1vTZq_G3cAOrZGjqevAia8mqUKWfmoESmBP88uZjRdAX5b3ReTs0o4NCbtuLMq539fy3l5FlYom7jLQrAZeqn3gfWSEAlfpsMlyPuQFKWQywd2t67vf8e2VU3_k84y0nltmpvKvk5YD3Zl3drSZw4-sd3KJxkn9ixUbFZU4Ge19ux8mBQcPRKK-JXlA8TfpuoGop0XRY9DF-fJqnNlMAZyAuHfNR3PtZr1tgNx3WhSRCYqX9VDTDbetqgt2EOQZVT2pbnIAAaBbKCDAR7AZT_3osRyuMZakdHq3EqA2fkxKdaXIo7I4rrHj5wAg_u1Ta85VbUsScz9xOGtZqFOQ3HxWmniFJUwMRdHhIaKPVqXrXyqJmM-8Ai4jjRTPzfkmyxs3OJzZCPz_SnHqoTbDSc2qcZzv0HI56mC2hNFssVss0gnm_yFncgRvyqUn5O8DUzu3zrlCAGFNaVlbagxUbNtxW9glx_mkeUl8WVfKNuEzdFKOz8BqufOOFCKdUPO6mspqeSBspW-h8kEwDlkRFX65wG9cJolIvl95Xs1UoW5fZtr0qAsiBoREBirpMvdSLKR5FRLGtIu2tul7vsIITl_r7u2)
 
 <!-- - ### PERT Graph -->
 <!-- ![](http://www.plantuml.com/plantuml/png/ZPHFZzCm4CNl_XIZ7f4gKMZvSq7BV-q1jDfoGnnCCadDEdOPJoWLuhip7gVT95I8G-Lg_9lnqvkdN2Msn7tdpSxL2DZj-GWrfehSdbqCvlE3Bx1Sle1R_DuxmWu3f_UMTqWkjCPZmy0HoBKxXbg0IhkCZ6Myt0I_36prMg4Ls0IBDquRBHqXDi18NLgO2VUeS9ZlNCXp-eG453qAEYOVA_d1tc56eB89HPfjoNPJSAtWkpwKjptGIEyKtIZwCOPbyp_u4yLV4sgb8iG01q4RqJ2N-rJPwy18ZQqmPJ_n9oFb9z8nCNQpZcVQyJRKujL41BGdaxDvWssol6AB6SvpPVrNPMD-6tDvQuBSKFo65Tzu6upYuugiTIJnkKfyITNEiG0zMPzZvTgm66EhXyfjcVf_G2k5Nk7E_d2nfpCZMaS2HWglkxrN_PPTd6gTtirKhqh8XCnXWQyskGeEaUuQ7mzJJILavs5GMxRv2KPDnnHUps0VspPxQaCjF-jbozE6pJW_cdDtoeTijZ33PbMC6SxxqjeCvtr9btlP1M4-OUBIetzdnfH0vmlHhSuh97tRsF314jwYHvkmZ9XNPzDAv4yC392EdJVA2_89CbSOwhxpVm00) -->
