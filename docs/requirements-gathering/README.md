@@ -7,7 +7,7 @@ In second section a clue is given about what we want of the end product to be. H
 DayDiary will offer a solution for a well trusted **confidential** digital diary. It will serve as a comftrable environment with a calendar view of dayrecs.
 
 Representation of ***functional requirements***:\
-Simple searching with a keyword on all text will be included. Editing already entered text will be enabled as well as deleting the diary input. User will be expected to save input manually. In case the user forgets to save the unsaved changes, the program should inform user about the potential data loss.\
+Simple searching with a keyword on all text will be included. Editing already entered text will be supported as well as deleting the diary input. User will be expected to save input manually. In case the user forgets to save the unsaved changes, the program should inform user about the potential data loss.\
 Individual diary inputs will have an option of appending an image to it. `Pinning` specific diary will offer a quick access to it in case user wants to see that specific diary entry later on. DayDiary will offer a functionality to mark the text and add a graphical effect to it, in case text was shown to someone. Marking the text can be style (color) specific based on who it was shown to.\
 Exporting text as pdf document in span of custom date will be supported in order to print a diary.\
 Every user authentication will be logged and visible to authorized owner. User input will be mathematically analyzed and visible to user in graphical form with charts. Text will be processed and analyzed and will offer user a linguistic analysis in a way to improve their expression and vocabulary.
@@ -17,7 +17,7 @@ Program will support only one diary entry for each calendar day.
 As the program is stored locally it will be available offline and whenever the computer will be acessible. Application will support usage of only one diaree.\
 DayDiary will be reiliable: diary entries will be saved and encrypted in a retrievable way without loss or corruption of data. Application will be installable on all operating systems (Linux, Windows, MacOS). Only english language will be supported for use of this program.\
 Optionally individual user will be able to customize stylish settings such as application background, fonts, etc.\
-The final package of the program should be easy to install and use. Users should be supported with well documented functionalities.
+The final package of the program should be easy to install and use. Users should be provided with well documented functionalities.
 
 ## 3. User Roles
 Since DayDiary will be made for offline private purposes, it's user roles and relations between them will be quiet simple.
@@ -28,7 +28,7 @@ Since DayDiary will be made for offline private purposes, it's user roles and re
 ## 4. Glossary of Terms
 In filed of writing a diary there are not many technical terms. However, there will be some additional due to DayDiary program and project specifics.
 
-**Diary** - a personal record or journal where individuals can document their thoughts, experiences, and events\
+**Diary** - a personal record or journal where individuals can document their thoughts, experiences, and events. Represents set of all DayRecs in this application.\
 **Dayrec** - a unique and individual record within a diary or journal that captures the events, thoughts, or experiences usually of a specific day\
 **Diaree** - user of *DayDiary* and author of *Dayrec*s\
 **Dayrec metadata** - information associated with each entry, such as date, location and heading\
@@ -57,7 +57,7 @@ In filed of writing a diary there are not many technical terms. However, there w
 |Functionality label|Delete Diaree|
 |-|-|
 |Description|Diaree can delete oneself. All data about the diaree is deleted. The action cannot be undone.|
-|Main flow|<ol><li>Visitor logs into as a diaree</li><li>Diareel chooses `delete diaree` option in settings</li><li>System deletes all the `diaree's` data</li><li>System warns the diaree about a potential data loss and asks for a confirmation</li><li>Diaree confirms their action with password</li><li>System logs the diaree out</li></ol>|
+|Main flow|<ol><li>Visitor logs into as a diaree</li><li>Diaree chooses `delete diaree` option in settings</li><li>System warns the diaree about a potential data loss and asks for a confirmation</li><li>Diaree confirms their action with password</li><li>System deletes all the `diaree's` data</li><li>System logs the diaree out</li></ol>|
 |Alternative flow|*none*|
 |Execptional flow|<ul><li>Diaree has wrong password. The deletetion of diaree is unauthenticated and does not get deleted.</li></ul>|
 |Dependencies|Diaree has to exist and a diaree has to be logged in a profile to delete that profile.|
@@ -139,7 +139,7 @@ In filed of writing a diary there are not many technical terms. However, there w
 |Priority|Must have / Should have / **Could have** / Would have|
 |Acceptance test|<ul><li>Change input and check if the anaylzed data has updated.</li><li>View statistics when diaree has no input for every parameter of analyzed data.</li></ul>|
 
-|Functionality label|Edit a Dayree|
+|Functionality label|Edit a Dayrec|
 |-|-|
 |Description|Diaree can edit the content of any dayrec.|
 |Main flow|<ol><li>Diaree clicks functionality on calendar or other views to enter editor</li><li>Diaree is redirected to editor mode</li><li>On save, application deletes the previous version of dayrec and creates a new dayrec with a corresponding date</li></ol>|

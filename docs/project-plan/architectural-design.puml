@@ -1,0 +1,86 @@
+'Logical view:
+'----------------------------------
+@startuml
+package DayDiary {
+    package Text_Analysis
+    package Edit_DayRec {
+        package Append_file
+        package Delete_file
+    }
+    package Read_Diary
+    package Managing_Diary {
+        package Pining_DayRec
+        package Unpining_DayRec
+        package Mark_text_section
+        package Search_in_Diary
+        package Save_Dayrec
+    }
+    package GUI_controller <<subsystem>>
+    package Export
+    package Application_Messages
+}
+
+package Database_API <<subsystem>> {
+}
+
+
+Text_Analysis .up.> Database_API
+Edit_DayRec .up.> Database_API 
+Read_Diary .up.> Database_API
+Managing_Diary .up.> Database_API
+Export .right.> Database_API
+
+Edit_DayRec ..> GUI_controller
+Read_Diary ..> GUI_controller
+Application_Messages .right.> GUI_controller
+@enduml
+'----------------------------------
+
+
+
+Physical view
+'----------------------------------
+@startuml
+left to right direction
+node "Comptuter" <<device>> {
+    
+    node "Server" as server <<device>> {
+        folder public {
+            file index.html
+        }
+
+        folder "db-api" as dbapi {
+            file db.java
+        }
+
+        folder "logic" as logic {
+            file Linguistics.java as lang
+            file Statistics.java as stat
+            file General.java as gp
+        }
+   
+    }
+    
+    node "Database" as db <<device>> {
+        
+    }
+    
+    node "WebBrowser" as wb <<device>> {
+        
+    } 
+}
+
+dbapi -up- db : "port 1433"
+public -up- wb : "port 5000"
+
+dbapi --> logic
+public --> logic
+@enduml
+'----------------------------------
+
+
+
+'----------------------------------
+@startuml
+@enduml
+'----------------------------------
