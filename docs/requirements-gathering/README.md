@@ -1,7 +1,7 @@
 # REQUIREMENT GATHERING
 ## 1. Summary
 This document serves as an overview of what the requirements are for the final project *DayDiary*. 
-In second section a clue is given about what we want of the end product to be. Here functional and non-functional requirements are seperatly presented. They are well described and explained later on in sixth and seventh section of this document respectively. Functional and non-functonal requirements are graphically represented on *use case diagram*. User roles that are involved in the program are defined and desciribed in the third section. Terms concerning this document and DayDiary application are defined and described next in fourth seciton. Penultimate section gives us a sense about how the application will look like. These are images *screen wireframes* which represent the user graphicall interface of application. *Interfaces to External Systems* which define and describe relations between DayDiary and external systems will be presented last in this docmuent.
+In second section a clue is given about what we want of the end product to be. Here functional and non-functional requirements are seperatly presented. They are well described and explained later on in sixth and seventh section of this document respectively. Functional and non-functonal requirements are graphically represented on *use case diagram*. User roles that are involved in the program are defined and desciribed in the third section. Terms concerning this document and DayDiary application are defined and described next in fourth seciton. Penultimate section gives us a sense about what the application will look like. These images are *screen wireframes* which represent the user graphicall interface of application. *Interfaces to External Systems* which define and describe relations between DayDiary and external systems will be presented lastly in this docmuent.
 
 ## 2. Introduction
 DayDiary will offer a solution for a well trusted **confidential** digital diary. It will serve as a comftrable environment with a calendar view of dayrecs.
@@ -13,18 +13,17 @@ Exporting text as pdf document in span of custom date will be supported in order
 Every user authentication will be logged and visible to authorized owner. User input will be mathematically analyzed and visible to user in graphical form with charts. Text will be processed and analyzed and will offer user a linguistic analysis in a way to improve their expression and vocabulary.
 
 Representation of ***non-functional requirements***:\
-Program will support only one diary entry for each calendar day.
-As the program is stored locally it will be available offline and whenever the computer will be acessible. Application will support usage of only one diaree.\
-DayDiary will be reiliable: diary entries will be saved and encrypted in a retrievable way without loss or corruption of data. Application will be installable on all operating systems (Linux, Windows, MacOS). Only english language will be supported for use of this program.\
+Program will support only one diary entry for each calendar day. Diary will be stored in a cloud service.
+DayDiary will be reiliable: diary entries will be saved and encrypted in a retrievable way without loss or corruption of data. Application will be usable on all operating systems (Linux, Windows, MacOS). Only english language will be supported for use of this program.\
 Optionally individual user will be able to customize stylish settings such as application background, fonts, etc.\
 The final package of the program should be easy to install and use. Users should be provided with well documented functionalities.
 
 ## 3. User Roles
-Since DayDiary will be made for offline private purposes, it's user roles and relations between them will be quiet simple.
-- **Diaree** - an authorized user of diary: can log in and out of program, use all functionalities of DayDiary and is authorized to edit, delete and change user data
-- **Visitor** - unauthorized user that can only view list of already existing user profile and choose one of them to become *diaree*. Can see functionalities and workflow of application.0
-
+DayDiary's user roles and relations between them will be quiet simple.
+- **Diaree** - an authorized user of diary: can log in and out of program, use functionalities of DayDiary and is authorized to edit, delete and change user data.
+- **Visitor** - an unauthorized user that can only view list of daydiary functionalities. Can see functionalities and workflow of application.
 *Visitor* has a potential to become *Diaree*.
+
 ## 4. Glossary of Terms
 In filed of writing a diary there are not many technical terms. However, there will be some additional due to DayDiary program and project specifics.
 
@@ -166,9 +165,9 @@ In filed of writing a diary there are not many technical terms. However, there w
 |Functionality label|Save Dayrec|
 |-|-|
 |Description|Diaree can save the local changes they made on dayrec to drive.|
-|Main flow|<ol><li>Diaree clicks on save button in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to drive</li><li>Optionally changes get saved on another drive (backup)</li></ol>|
-|Alternative flow|<ol><li>Diaree presses ctrl+s in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to drive</li><li>Optionally changes get saved on another drive (backup)</li></ol>|
-|Execptional flow|<ul><li>Not enough space on the drive. The application returns error message.</li></ul>|
+|Main flow|<ol><li>Diaree clicks on save button in editor</li><li>Application encrypts the data<li>Application saves the changes to cloud</li><li>Optionally changes get saved on another drive (backup)</li></ol>|
+|Alternative flow|<ol><li>Diaree presses ctrl+s in editor</li><li>Application encrypts the data<li>Appliocation saves the changes to cloud</li><li>Optionally changes get saved on another drive (backup)</li></ol>|
+|Execptional flow|<ul><li>Not enough space on the drive. The application returns an error message.</li></ul>|
 |Dependencies|Enough available space on drive.|
 |Aftermath|Encrypted updated content of dayrec is stored on drive.|
 |Extra|*none*|
@@ -223,7 +222,7 @@ In filed of writing a diary there are not many technical terms. However, there w
 |Priority|Must have / Should have / Could have / **Would have**|
 |Acceptance test|<ul><li>Select the text and mark it. The application should support to see who it was seen by.</li><li>Mark the text section and delete the dayrec that contatins the marked text section. The system should not trigger any message and the marked text section should not be visible anymore.</li></ul>|
 
-|Functionality label|Export Diary ection|
+|Functionality label|Export Diary section|
 |-|-|
 |Description|Diaree can export a pdf format of daydiary in span of customly inputed dates.|
 |Main flow|<ol><li>In *document section* diaree inputs the two border dates and pdf document title</li><li>Diaree clicks on export button</li><li>Application exports pdf document of diary content in span of the mentioned dates with those included</li><li>Application asks for document destination in drive file system</li><li>Diaree enters the path to document</li><li>Application saves the pdf document to the file system</li></ol>|
@@ -284,10 +283,8 @@ In filed of writing a diary there are not many technical terms. However, there w
 |Acceptance test|<ul><li>Trigger error to test that the application does not crash but triggers a message and does not go into a problem instead.</ul>|
 
 ## 7. Non-functional Requirements
-- Application should not allow any connecion with external devices.
-  - No user should be able to use DayDiary elsewise than localy (use with internet connection).
-- Application should be available 100% of time..
-  - Since the application does not offer an online service it's working will only depend on local device. Any time the device will be accessible, Daydiary will be available.
+- Application should be available 100% of time
+  - Since the application offers an online service it's working will depend on cloud service device. Any time that service will be accessible, Daydiary will be available.
 - 100% of input data should be accessible to authorized user.
   - Data should be stored in a professional manner and safe. 0% of user data should get lost or changed in any way. 0% of diaree's data should be accessable to unauthorized user.
 - Documentation of application should be graphically supported and of maximum 500 words.
@@ -319,4 +316,4 @@ Calendar view:\
 ![](./screen-wireframes/Template.png)
 
 ## 9. Interfaces to External Systems
-The application focuses on privacy, therefore it will not have any interactions with external systems or the internet in general.
+The application focuses on privacy, therefore it will only have access to server and none other external services will be invloved.
